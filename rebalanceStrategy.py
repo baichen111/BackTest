@@ -66,7 +66,7 @@ def Downloads(tickers,start,end):
         data.to_csv("./StockData/{}.csv".format(ticker))
 
 if __name__ == '__main__':
-    tickers = ["NVDA","AMZN","AMD","META","SHOP","TSLA","SPYD"]
+    tickers = ["NVDA","AMZN","AMD","META","SE","SHOP","TSLA","SPYD"]
     pct= 1/(len(tickers))
     
     Downloads(tickers,'2018-01-01','2022-06-01')
